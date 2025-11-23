@@ -1,0 +1,17 @@
+ #include<stdio.h>
+    int main()
+    {
+        int total_classes,attended_classes;
+        float attendence_percentage;
+        scanf("%d%d",&total_classes,&attended_classes);
+        attendence_percentage=((float)attended_classes/total_classes)*100;
+        if(attendence_percentage>=75.0)
+        {
+            printf("ELIGIBLE");
+        }
+        else
+        {
+            printf("NOT ELIGIBLE");
+        }
+        return 0;
+    }

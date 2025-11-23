@@ -1,0 +1,20 @@
+ #include<stdio.h>
+    int main()
+    {
+        int N,M;
+        scanf("%d%d",&N,&M);
+        float onlinecost=N*0.90;
+        if(onlinecost<M)
+        {
+            printf("ONLINE");
+        }
+        else if(M<onlinecost)
+        {
+            printf("DINING");
+        }
+        else
+        {
+            printf("EITHER");
+        }
+        return 0;
+    }

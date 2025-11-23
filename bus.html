@@ -1,0 +1,23 @@
+ #include<stdio.h>
+    int main()
+    {
+        int seat_number;
+        scanf("%d",&seat_number);
+        if(seat_number>=1&&seat_number<=10)
+        {
+            printf("Lower Double");
+        }
+        else if(seat_number>=11&&seat_number<=15)
+        {
+            printf("Lower Single");
+        }
+        else if(seat_number>=16&&seat_number<=25)
+        {
+            printf("Upper Double");
+        }
+        else if(seat_number>=26&&seat_number<=30)
+        {
+            printf("Upper Single");
+        }
+        return 0;
+    }
